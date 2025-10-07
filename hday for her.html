@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Envelope</title>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="hbday for her.css">
+</head>
+
+<body>
+<!-- Envelope already handled above -->
+
+<!-- Corner image, start hidden -->
+<!-- Corner image, hidden initially -->
+<img 
+  src="cake 1.2.png" 
+  alt="corner image" 
+  id="cornerImage"
+  style="position: fixed; bottom: -45px; right: 20px; width: 300px; height: auto; opacity: 0; transform: scale(0.8); transition: opacity 0.5s ease, transform 0.5s ease; z-index: 1000;"
+>
+
+
+
+<div class="envelope-wrapper">
+  <div class="envelope" id="envelope">
+    <div class="flap"></div>
+    <div class="message">
+      <span>🎉 Happy Birthday, Shoon Ti! 🎂</span>
+
+      <img src="eating cake.png" alt="Birthday image" width="100">
+    </div>
+  </div>
+  <button id="openBtn" class="open-btn">Open Me</button>
+</div>
+
+<!-- 🎈 New banner -->
+<h1 class="birthday-banner" id="banner">🎉 Happy Birthday, Shoon Ti! 🎂</h1>
+
+<!-- Cake -->
+<div id="cake" class="cake">
+  <div class="layer-top"></div>
+  <div class="layer-2"></div>
+  <div class="candle">
+    <div class="flame"></div>
+  </div>
+</div>
+<!-- Balloons container -->
+<div id="balloons" class="balloons">
+  <div class="balloon" style="--clr: #ff6b6b;"></div>
+  <div class="balloon" style="--clr: #feca57;"></div>
+  <div class="balloon" style="--clr: #1dd1a1;"></div>
+  <div class="balloon" style="--clr: #54a0ff;"></div>
+  <div class="balloon" style="--clr: #ff9ff3;"></div>
+  <div class="balloon" style="--clr: #55d069;"></div>
+  <div class="balloon" style="--clr: #8f3a83;"></div>
+  <div class="balloon" style="--clr: #c1c1c1;"></div>
+</div>
+
+<!-- Streamers container -->
+<div id="streamers" class="streamers"></div>
+
+<!-- Confetti container -->
+<div id="confetti" class="confetti"></div>
+
+
+
+<!-- Images -->
+<div class="container" id="gallery">
+  <div class="img-box" style="--img: url('her 1 (drawing).jpg');"></div>
+  <div class="img-box" style="--img: url('her\ smile.jpg');"></div>
+  <div class="img-box" style="--img: url('her 3 (sit).jpg');"></div>
+  <div class="img-box" style="--img: url('her 4 (peeking).jpg');"></div>
+  <div class="img-box" style="--img: url('her 5 (sheeps and my fav).jpg');"></div>
+  <div class="img-box" style="--img: url('her 6 (sit in bamboo chair).jpg');"></div>
+</div>
+<!-- Background music -->
+<audio id="bgMusic" src="HAPPY BIRTHDAY INSTRUMENTAL.mp3" preload="auto"></audio>
+<!-- Yayy meme -->
+<audio id="yayy" src="Yayyy! Sound Effect.mp3" preload="auto"></audio>
+
+
+<script src="hbday for her.js"></script>
+</body>
+</html>
